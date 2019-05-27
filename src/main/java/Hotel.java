@@ -13,6 +13,9 @@ public class Hotel {
 
             System.out.println("On the weekend, or a weeknight?");
             String dayOfWeek = bufferedReader.readLine();
+
+            boolean summer = season.equals("summer");
+            boolean weekend = dayOfWeek.equals("weekend");
         }
         catch(IOException e)
         {
